@@ -19,6 +19,8 @@ depexts: [
   ["perl-String-ShellQuote"] {os-family = "suse"}
   ["perl-String-ShellQuote"] {os-family = "fedora"}
   ["perl-string-shellquote"] {os-family = "arch"}
+  ["perlPackages.StringShellQuote"] { os-distribution="nixpkgs" }
+  ["perlPackages.StringShellQuote"] { os-distribution="nixos" }
 ]
 synopsis: "Virtual package relying on perl's String::ShellQuote"
 description:
